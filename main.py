@@ -1,1 +1,4 @@
-from src.red_wine_quality_prediction.config import configuration
+from red_wine_quality_prediction import logger
+
+logger.info("This is our custom log")
+
