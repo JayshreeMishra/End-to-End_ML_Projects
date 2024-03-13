@@ -34,3 +34,102 @@ Source-Age: 0
 [2024-03-13 14:45:28,191: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-03-13 15:22:19,847: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-13 15:22:19,853: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-13 15:22:19,865: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-13 15:22:19,871: INFO: common: created directory at: artifacts]
+[2024-03-13 15:22:19,884: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-13 15:39:05,744: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-13 15:39:05,750: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-13 15:39:05,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-13 15:39:05,756: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-13 15:39:05,758: INFO: common: created directory at: artifacts]
+[2024-03-13 15:39:05,759: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-13 15:39:08,449: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4b28eda31554e671583b8984813309f1d95eb69e1055e048accf107a1cdbfa55"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C7C4:10EA32:565764:716EB1:65F16ED6
+Accept-Ranges: bytes
+Date: Wed, 13 Mar 2024 10:09:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100031-HYD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1710324588.334865,VS0,VE308
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f7e2588b34f4d8d8816684e8ea827b832b427888
+Expires: Wed, 13 Mar 2024 10:14:48 GMT
+Source-Age: 0
+
+]
+[2024-03-13 15:39:08,460: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-13 15:39:08,461: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-13 15:39:08,467: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-13 15:39:08,470: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-13 15:39:08,477: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-13 15:39:08,479: INFO: common: created directory at: artifacts]
+[2024-03-13 15:39:08,481: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-13 15:39:08,482: ERROR: main: name 'DataValiadtion' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\jaysh\OneDrive\Desktop\ML_Projects\End-to-End_ML_Projects\main.py", line 22, in <module>
+    data_ingestion.main()
+  File "c:\users\jaysh\onedrive\desktop\ml_projects\end-to-end_ml_projects\src\red_wine_quality_prediction\pipeline\stage_02_data_validation.py", line 15, in main
+    data_validation = DataValiadtion(config=data_validation_config)
+NameError: name 'DataValiadtion' is not defined
+[2024-03-13 15:43:50,725: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-13 15:43:50,731: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-13 15:43:50,735: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-13 15:43:50,745: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-13 15:43:50,748: INFO: common: created directory at: artifacts]
+[2024-03-13 15:43:50,750: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-13 15:43:53,527: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4b28eda31554e671583b8984813309f1d95eb69e1055e048accf107a1cdbfa55"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C7C4:10EA32:565764:716EB1:65F16ED6
+Accept-Ranges: bytes
+Date: Wed, 13 Mar 2024 10:14:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100029-HYD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1710324874.741387,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9b098c2d6275c92e0b8d309499ce560212e6f993
+Expires: Wed, 13 Mar 2024 10:19:33 GMT
+Source-Age: 285
+
+]
+[2024-03-13 15:43:53,537: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-13 15:43:53,538: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-13 15:43:53,547: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-13 15:43:53,550: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-13 15:43:53,558: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-13 15:43:53,561: INFO: common: created directory at: artifacts]
+[2024-03-13 15:43:53,563: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-13 15:43:53,611: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
