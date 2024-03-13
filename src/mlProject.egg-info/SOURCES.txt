@@ -5,3 +5,13 @@ src/mlProject.egg-info/PKG-INFO
 src/mlProject.egg-info/SOURCES.txt
 src/mlProject.egg-info/dependency_links.txt
 src/mlProject.egg-info/top_level.txt
+src/red_wine_quality_prediction/__init__.py
+src/red_wine_quality_prediction/components/__init__.py
+src/red_wine_quality_prediction/config/__init__.py
+src/red_wine_quality_prediction/config/configuration.py
+src/red_wine_quality_prediction/constants/__init__.py
+src/red_wine_quality_prediction/entity/__init__.py
+src/red_wine_quality_prediction/entity/config_entity.py
+src/red_wine_quality_prediction/pipeline/__init__.py
+src/red_wine_quality_prediction/utils/__init__.py
+src/red_wine_quality_prediction/utils/common.py

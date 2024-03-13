@@ -1,2 +1,36 @@
-[2024-03-12 13:55:22,189: INFO: main: This is our custom log]
-[2024-03-12 14:01:46,092: INFO: main: This is our custom log]
+[2024-03-13 14:45:25,157: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-13 14:45:25,161: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-13 14:45:25,163: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-13 14:45:25,168: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-13 14:45:25,171: INFO: common: created directory at: artifacts]
+[2024-03-13 14:45:25,173: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-13 14:45:28,175: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4b28eda31554e671583b8984813309f1d95eb69e1055e048accf107a1cdbfa55"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C7C4:10EA32:565764:716EB1:65F16ED6
+Accept-Ranges: bytes
+Date: Wed, 13 Mar 2024 09:16:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100027-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1710321368.062585,VS0,VE301
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2a13f1d54f79649b680ee74f66a20cc0da7288ba
+Expires: Wed, 13 Mar 2024 09:21:08 GMT
+Source-Age: 0
+
+]
+[2024-03-13 14:45:28,191: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
