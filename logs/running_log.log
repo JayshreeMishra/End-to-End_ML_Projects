@@ -289,3 +289,465 @@ x==========x]
 [2024-03-14 14:38:33,657: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[2024-03-14 14:48:27,114: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 14:48:27,119: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 14:48:27,127: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 14:48:27,131: INFO: common: created directory at: artifacts]
+[2024-03-14 14:48:27,134: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-14 14:49:23,144: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 14:49:23,148: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 14:49:23,155: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 14:49:23,158: INFO: common: created directory at: artifacts]
+[2024-03-14 14:49:23,161: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-14 14:49:23,185: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-03-14 15:14:54,648: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-14 15:14:54,654: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:14:54,655: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:14:54,660: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:14:54,661: INFO: common: created directory at: artifacts]
+[2024-03-14 15:14:54,661: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 15:14:56,966: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4b28eda31554e671583b8984813309f1d95eb69e1055e048accf107a1cdbfa55"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 322C:294662:3ED4E2:51A7B9:65F2BE90
+Accept-Ranges: bytes
+Date: Thu, 14 Mar 2024 09:44:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1710409498.346224,VS0,VE289
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 542cf11e9b9d18dd9b262911e69e4afe9f34a28b
+Expires: Thu, 14 Mar 2024 09:49:58 GMT
+Source-Age: 0
+
+]
+[2024-03-14 15:14:56,973: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:14:56,974: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-14 15:14:56,983: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:14:56,985: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:14:56,991: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:14:56,997: INFO: common: created directory at: artifacts]
+[2024-03-14 15:14:56,998: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-14 15:14:57,021: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:14:57,025: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-14 15:14:57,034: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:14:57,036: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:14:57,042: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:14:57,043: INFO: common: created directory at: artifacts]
+[2024-03-14 15:14:57,045: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-14 15:14:57,090: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-14 15:14:57,090: INFO: data_transformation: (1199, 12)]
+[2024-03-14 15:14:57,091: INFO: data_transformation: (400, 12)]
+[2024-03-14 15:14:57,091: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:14:57,093: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-14 15:14:57,102: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:14:57,104: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:14:57,112: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:14:57,114: INFO: common: created directory at: artifacts]
+[2024-03-14 15:14:57,116: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-14 15:14:57,147: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:15:18,282: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-14 15:15:18,289: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:15:18,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:15:18,295: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:15:18,296: INFO: common: created directory at: artifacts]
+[2024-03-14 15:15:18,296: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 15:15:19,764: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4b28eda31554e671583b8984813309f1d95eb69e1055e048accf107a1cdbfa55"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 322C:294662:3ED4E2:51A7B9:65F2BE90
+Accept-Ranges: bytes
+Date: Thu, 14 Mar 2024 09:45:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100026-HYD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1710409521.453805,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1e9acaf7196e83f206628080937471a3cbc719b8
+Expires: Thu, 14 Mar 2024 09:50:21 GMT
+Source-Age: 23
+
+]
+[2024-03-14 15:15:19,771: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:15:19,772: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-14 15:15:19,780: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:15:19,782: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:15:19,789: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:15:19,790: INFO: common: created directory at: artifacts]
+[2024-03-14 15:15:19,791: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-14 15:15:19,819: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:15:19,820: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-14 15:15:19,833: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:15:19,836: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:15:19,845: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:15:19,847: INFO: common: created directory at: artifacts]
+[2024-03-14 15:15:19,852: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-14 15:15:19,900: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-14 15:15:19,901: INFO: data_transformation: (1199, 12)]
+[2024-03-14 15:15:19,940: INFO: data_transformation: (400, 12)]
+[2024-03-14 15:15:19,949: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:15:19,985: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-14 15:15:20,022: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:15:20,050: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:15:20,073: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:15:20,076: INFO: common: created directory at: artifacts]
+[2024-03-14 15:15:20,077: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-14 15:15:20,136: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:16:58,355: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-14 15:16:58,362: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:16:58,363: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:16:58,367: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:16:58,368: INFO: common: created directory at: artifacts]
+[2024-03-14 15:16:58,368: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 15:16:59,994: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4b28eda31554e671583b8984813309f1d95eb69e1055e048accf107a1cdbfa55"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 322C:294662:3ED4E2:51A7B9:65F2BE90
+Accept-Ranges: bytes
+Date: Thu, 14 Mar 2024 09:47:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100027-HYD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1710409622.678703,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cee4d22a10ad34e24477cc60f030a9b7981db6b4
+Expires: Thu, 14 Mar 2024 09:52:01 GMT
+Source-Age: 123
+
+]
+[2024-03-14 15:17:00,002: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:17:00,002: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-14 15:17:00,011: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:17:00,013: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:17:00,018: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:17:00,020: INFO: common: created directory at: artifacts]
+[2024-03-14 15:17:00,021: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-14 15:17:00,044: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:17:00,045: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-14 15:17:00,055: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:17:00,059: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:17:00,062: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:17:00,066: INFO: common: created directory at: artifacts]
+[2024-03-14 15:17:00,068: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-14 15:17:00,103: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-14 15:17:00,103: INFO: data_transformation: (1199, 12)]
+[2024-03-14 15:17:00,103: INFO: data_transformation: (400, 12)]
+[2024-03-14 15:17:00,104: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:17:00,105: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-14 15:17:00,113: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:17:00,116: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:17:00,122: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:17:00,125: INFO: common: created directory at: artifacts]
+[2024-03-14 15:17:00,126: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-14 15:17:00,147: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:17:00,148: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-03-14 15:17:00,157: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:17:00,159: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:17:00,165: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:17:00,166: INFO: common: created directory at: artifacts]
+[2024-03-14 15:17:00,167: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-14 15:17:00,187: ERROR: main: name 'Path' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\jaysh\OneDrive\Desktop\ML_Projects\End-to-End_ML_Projects\main.py", line 58, in <module>
+    obj.main()
+  File "c:\users\jaysh\onedrive\desktop\ml_projects\end-to-end_ml_projects\src\red_wine_quality_prediction\pipeline\stage_05_model_evaluation.py", line 16, in main
+    model_evaluation_config.save_results()
+  File "c:\users\jaysh\onedrive\desktop\ml_projects\end-to-end_ml_projects\src\red_wine_quality_prediction\components\model_evaluation.py", line 36, in save_results
+    save_json(path=Path(self.config.metric_file_name), data=scores)
+NameError: name 'Path' is not defined
+[2024-03-14 15:18:36,887: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-14 15:18:36,892: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:18:36,894: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:18:36,897: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:18:36,897: INFO: common: created directory at: artifacts]
+[2024-03-14 15:18:36,898: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 15:18:38,319: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4b28eda31554e671583b8984813309f1d95eb69e1055e048accf107a1cdbfa55"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 322C:294662:3ED4E2:51A7B9:65F2BE90
+Accept-Ranges: bytes
+Date: Thu, 14 Mar 2024 09:48:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: HIT
+X-Cache-Hits: 2
+X-Timer: S1710409720.002450,VS0,VE0
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d65d9a4b67da755714e73561b87bc9d5a0f6967e
+Expires: Thu, 14 Mar 2024 09:53:40 GMT
+Source-Age: 221
+
+]
+[2024-03-14 15:18:38,329: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:18:38,330: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-14 15:18:38,339: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:18:38,341: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:18:38,345: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:18:38,349: INFO: common: created directory at: artifacts]
+[2024-03-14 15:18:38,350: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-14 15:18:38,376: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:18:38,377: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-14 15:18:38,392: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:18:38,396: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:18:38,403: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:18:38,404: INFO: common: created directory at: artifacts]
+[2024-03-14 15:18:38,407: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-14 15:18:38,450: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-14 15:18:38,450: INFO: data_transformation: (1199, 12)]
+[2024-03-14 15:18:38,451: INFO: data_transformation: (400, 12)]
+[2024-03-14 15:18:38,452: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:18:38,453: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-14 15:18:38,465: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:18:38,467: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:18:38,477: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:18:38,480: INFO: common: created directory at: artifacts]
+[2024-03-14 15:18:38,482: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-14 15:18:38,512: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:18:38,513: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-03-14 15:18:38,524: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:18:38,526: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:18:38,532: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:18:38,534: INFO: common: created directory at: artifacts]
+[2024-03-14 15:18:38,535: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-14 15:18:38,554: ERROR: main: name 'Path' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\jaysh\OneDrive\Desktop\ML_Projects\End-to-End_ML_Projects\main.py", line 58, in <module>
+    data_ingestion.main()
+  File "c:\users\jaysh\onedrive\desktop\ml_projects\end-to-end_ml_projects\src\red_wine_quality_prediction\pipeline\stage_05_model_evaluation.py", line 16, in main
+    model_evaluation_config.save_results()
+  File "c:\users\jaysh\onedrive\desktop\ml_projects\end-to-end_ml_projects\src\red_wine_quality_prediction\components\model_evaluation.py", line 36, in save_results
+    save_json(path=Path(self.config.metric_file_name), data=scores)
+NameError: name 'Path' is not defined
+[2024-03-14 15:20:03,373: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-14 15:20:03,381: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:20:03,383: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:20:03,388: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:20:03,389: INFO: common: created directory at: artifacts]
+[2024-03-14 15:20:03,389: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 15:20:05,822: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4b28eda31554e671583b8984813309f1d95eb69e1055e048accf107a1cdbfa55"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 322C:294662:3ED4E2:51A7B9:65F2BE90
+Accept-Ranges: bytes
+Date: Thu, 14 Mar 2024 09:50:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100030-HYD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1710409807.182460,VS0,VE340
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 45eed22dc02f32ece95acee6998fdc10cedff0cf
+Expires: Thu, 14 Mar 2024 09:55:07 GMT
+Source-Age: 0
+
+]
+[2024-03-14 15:20:05,830: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:20:05,831: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-14 15:20:05,841: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:20:05,843: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:20:05,852: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:20:05,854: INFO: common: created directory at: artifacts]
+[2024-03-14 15:20:05,855: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-14 15:20:05,880: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:20:05,882: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-14 15:20:05,901: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:20:05,903: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:20:05,911: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:20:05,913: INFO: common: created directory at: artifacts]
+[2024-03-14 15:20:05,915: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-14 15:20:05,963: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-14 15:20:05,964: INFO: data_transformation: (1199, 12)]
+[2024-03-14 15:20:05,964: INFO: data_transformation: (400, 12)]
+[2024-03-14 15:20:05,971: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:20:05,973: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-14 15:20:05,988: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:20:05,995: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:20:06,006: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:20:06,012: INFO: common: created directory at: artifacts]
+[2024-03-14 15:20:06,014: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-14 15:20:06,045: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:20:06,046: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-03-14 15:20:06,057: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:20:06,059: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:20:06,065: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:20:06,067: INFO: common: created directory at: artifacts]
+[2024-03-14 15:20:06,068: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-14 15:20:06,090: ERROR: main: name 'Path' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\jaysh\OneDrive\Desktop\ML_Projects\End-to-End_ML_Projects\main.py", line 58, in <module>
+    data_ingestion.main()
+  File "c:\users\jaysh\onedrive\desktop\ml_projects\end-to-end_ml_projects\src\red_wine_quality_prediction\pipeline\stage_05_model_evaluation.py", line 16, in main
+    model_evaluation_config.save_results()
+  File "c:\users\jaysh\onedrive\desktop\ml_projects\end-to-end_ml_projects\src\red_wine_quality_prediction\components\model_evaluation.py", line 36, in save_results
+    save_json(path=Path(self.config.metric_file_name), data=scores)
+NameError: name 'Path' is not defined
+[2024-03-14 15:22:24,680: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-14 15:22:24,687: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:22:24,689: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:22:24,693: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:22:24,694: INFO: common: created directory at: artifacts]
+[2024-03-14 15:22:24,695: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 15:22:27,030: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "4b28eda31554e671583b8984813309f1d95eb69e1055e048accf107a1cdbfa55"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 322C:294662:3ED4E2:51A7B9:65F2BE90
+Accept-Ranges: bytes
+Date: Thu, 14 Mar 2024 09:52:28 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100022-HYD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1710409949.736637,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 86bf3a42615f3f6e69952e57eaaaa5a924f5bc48
+Expires: Thu, 14 Mar 2024 09:57:28 GMT
+Source-Age: 141
+
+]
+[2024-03-14 15:22:27,036: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:22:27,036: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-14 15:22:27,049: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:22:27,052: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:22:27,063: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:22:27,064: INFO: common: created directory at: artifacts]
+[2024-03-14 15:22:27,067: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-14 15:22:27,088: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:22:27,089: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-14 15:22:27,098: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:22:27,102: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:22:27,110: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:22:27,111: INFO: common: created directory at: artifacts]
+[2024-03-14 15:22:27,113: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-14 15:22:27,154: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-14 15:22:27,155: INFO: data_transformation: (1199, 12)]
+[2024-03-14 15:22:27,155: INFO: data_transformation: (400, 12)]
+[2024-03-14 15:22:27,156: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:22:27,157: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-14 15:22:27,164: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:22:27,168: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:22:27,174: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:22:27,176: INFO: common: created directory at: artifacts]
+[2024-03-14 15:22:27,177: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-14 15:22:27,202: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-14 15:22:27,203: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-03-14 15:22:27,211: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 15:22:27,213: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 15:22:27,220: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-14 15:22:27,221: INFO: common: created directory at: artifacts]
+[2024-03-14 15:22:27,222: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-14 15:22:27,245: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-03-14 15:22:27,246: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
